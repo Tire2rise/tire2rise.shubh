@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#contact -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Tire2rise</title>
+<link href="./tire2rise_files/css2" rel="stylesheet">
+<style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 24px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        header, footer {
+            background: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background: #003366;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background: #002244;
+        }
+
+        .hero {
+            background: #e6f2ff;
+            --padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            line-height: 1.2;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        .hero p {
+            font-size: 20px;
+            line-height: 1.5;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .hero a {
+            display: inline-block;
+            margin-top: 20px;
+            --padding: 14px 28px;
+            background: #004080;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        section {
+            --padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #004080;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .skill-box {
+            flex: 1 1 200px;
+            background: white;
+           -- padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .skill-box img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+
+        .skill-box h3 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 50%;
+            max-width: 300px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+            margin: 10px;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-form {
+            background: #f2f2f2;
+           -- padding: 20px;
+            border-radius: 5px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            --padding: 12px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .contact-form button {
+            background: #004080;
+            color: white;
+           --- padding: 14px 28px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .skills-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            body {
+                font-size: 16px;
+            }
+        }
+    
+/* Animations */
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+.skill-box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+section {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.3s;
+}
+html {
+    scroll-behavior: smooth;
+}
+</style>
+<link href="./tire2rise_files/all.min.css" rel="stylesheet"><link href="./tire2rise_files/css2" rel="stylesheet"></head>
+<body><div style="background:#ffcc00;padding:10px;text-align:center;font-weight:bold;">🚧 This is a prototype version of the Tire2Rise website. Content and design are subject to change.</div>
+<header>
+<h1>Welcome to Tier2Rise</h1>
+<p>Tier2Rise—a non-profit platform that identifies, supports, and connects real talent from smaller cities to companies that value skill and potential.</p>
+</header>
+<nav>
+<ul>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#about"><i class="fas fa-home" style="margin-right:8px;"></i>About</a></li>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#how"><i class="fas fa-info-circle" style="margin-right:8px;"></i>How It Works</a></li>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#programs"><i class="fas fa-cogs" style="margin-right:8px;"></i>Programs</a></li>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#vision"><i class="fas fa-lightbulb" style="margin-right:8px;"></i>Vision</a></li>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#gallery"><i class="fas fa-image" style="margin-right:8px;"></i>Gallery</a></li>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#stories"><i class="fas fa-envelope" style="margin-right:8px;"></i>Success Stories</a></li>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#partners">Partners</a></li>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#join">Join Us</a></li>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#skills">Skills</a></li>
+<li><a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#contact">Contact</a></li>
+</ul>
+</nav>
+<div class="hero">
+<h1>Talent is everywhere, Opportunity should be too...</h1>
+<p>Connecting students from Tier-2, Tier-3 &amp; Tier-4 cities with top companies</p>
+<p>Join us in bridging the gap between potential and opportunity.</p>
+<a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#contact">Get in Touch</a>
+</div>
+<section id="about">
+<h2>About Tier2Rise</h2>
+<p><strong>Tire2rise</strong> is a purpose-driven platform committed to unlocking the potential of students from Tier-2 and Tier-3 cities across India. We believe that talent knows no boundaries, 
+        and every student deserves access to the same opportunities—regardless of their location or background.</p>
+<p>Our mission is to identify, nurture, and connect skilled individuals with top-tier companies through a digital-first ecosystem that offers:</p>
+<ul>
+<li>Skill development</li>
+<li>Mentorship</li>
+<li>Career guidance</li>
+<li>Job placement</li>
+</ul>
+</section>
+<section id="How">
+<h2>How It Works</h2>
+<ol>
+<li>Discover: Online assessments and challenges to identify top talent.</li>
+<li>Learn: Curated courses and live mentorship from industry professionals.</li>
+<li>Connect: Resume building, mock interviews, and career counseling.</li>
+<li>Launch: Direct hiring partnerships with companies.</li>
+</ol>
+</section>
+<section id="programs">
+<h2>Our Programs</h2>
+<p>We offer career support and training programs for students from Tier-2, Tier-3, and Tier-4 cities.</p>
+</section>
+<section id="vision">
+<h2>Our Vision</h2>
+<p>To become the bridge between hidden talent and hiring companies, reducing hiring time and increasing access to opportunity — one student at a time.</p>
+</section>
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<img alt="Gallery Image 1" src="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/Image_1.jpg">
+<img alt="Gallery Image 2" src="https://via.placeholder.com/300x200">
+<img alt="Gallery Image 3" src="https://via.placeholder.com/300x200">
+</div>
+</section>
+
+<section id="stories">
+<h2>Success Stories</h2>
+<div class="skills-grid">
+<div class="skill-box"><i class="fas fa-brain fa-3x" style="color:#004080;margin-bottom:10px;"></i>
+<h3>Ashlesha from Chandrapur</h3>
+<p>Now a Senior Assosiate at a top MNC after completing our Career Accelerator.</p>
+</div>
+<div class="skill-box"><i class="fas fa-chalkboard-teacher fa-3x" style="color:#004080;margin-bottom:10px;"></i>
+<h3>Akash from Nagpur</h3>
+<p>Now a Senior Associate at a top MNC after completing our Career Accelerator!</p>
+</div>
+</div>
+</section>
+<section id="partners">
+<h2>Partner Companies</h2>
+<div class="gallery">
+<img alt="Company 1 Logo" src="./tire2rise_files/OIP.7Agm4XDs3_QKCFEE6hNw2AHaEK">
+<img alt="Company 2 Logo" data-white-logo-src="https://www.capgemini.com/wp-content/themes/capgemini2020/assets/images/logo-white.svg" src="./tire2rise_files/logo.svg">
+<img alt="Company 3 Logo" src="./tire2rise_files/OIP.Gb4xi3k-tu1DaNbtFzui_wHaHa">
+</div>
+</section>
+<section id="join">
+<h2>Join Us</h2>
+<form class="contact-form">
+<input placeholder="Your Name" required="" type="text">
+<input placeholder="Your Email" required="" type="email">
+<select required="">
+<option value="">I am a...</option>
+<option value="student">Student</option>
+<option value="mentor">Mentor</option>
+<option value="company">Company Representative</option>
+</select>
+<textarea placeholder="Tell us why you want to join..." rows="4"></textarea>
+<button type="submit">Submit</button>
+</form>
+</section>
+<section id="skills" style="background-color: #004080; padding: 40px 20px;">
+<h2 style="color: white;">Empowering You Through</h2>
+<div class="skills-grid">
+<div class="skill-box"><i class="fas fa-briefcase fa-3x" style="color:#004080;margin-bottom:10px;"></i>
+
+<h3>Skill Development</h3>
+</div>
+<div class="skill-box"><i class="fas fa-users fa-3x" style="color:#004080;margin-bottom:10px;"></i>
+
+<h3>Mentorship</h3>
+</div>
+<div class="skill-box"><i class="fas fa-laptop-code fa-3x" style="color:#004080;margin-bottom:10px;"></i>
+
+<h3>Career Guidance</h3>
+</div>
+<div class="skill-box"><i class="fas fa-globe fa-3x" style="color:#004080;margin-bottom:10px;"></i>
+
+<h3>Job Placement</h3>
+</div>
+</div>
+</section>
+<section id="contact">
+<h2>Contact Us</h2>
+<div class="contact-form">
+<form>
+<input name="name" placeholder="Your Name" required="" type="text">
+<input name="email" placeholder="Your Email" required="" type="email">
+<textarea name="message" placeholder="Your Message" required="" rows="5"></textarea>
+<button type="submit">Send Message</button>
+</form>
+</div>
+</section>
+    
+
+<h2>Contact Information</h2>
+<address>
+
+
+
+<footer>
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;">
+<div>
+<p><i class="fas fa-map-marker-alt"></i> 📍 1st Floor, Shinde House, Balaji Ward Near Hanuman Mandir, Chandrapur, Maharashtra</p>
+<p><i class="fas fa-envelope"></i> ✉️ careers@tire2rise.org</p>
+<p><i class="fas fa-phone"></i> 📞 +91 7304-64-65-59</p>
+</div>
+<div>
+<form>
+<label for="newsletter">Subscribe to our newsletter:</label><br>
+<input id="newsletter" name="newsletter" placeholder="Your email" style="padding:5px;margin-top:5px;" type="email">
+<button style="padding:8px 16px;background:#004080;color:white;border:none;border-radius:4px;" type="submit">Subscribe</button>
+</form>
+</div>
+<div>
+<a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#"><i class="fab fa-facebook fa-lg" style="margin:0 10px;"></i></a>
+<a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#"><i class="fab fa-twitter fa-lg" style="margin:0 10px;"></i></a>
+<a href="file:///C:/Users/SSHIN130/OneDrive%20-%20Capgemini/Tire/tire2rise_Final.html#"><i class="fab fa-linkedin fa-lg" style="margin:0 10px;"></i></a>
+</div>
+</div>
+<p style="text-align:center;margin-top:20px;">© 2024 Tire2Rise. All rights reserved.</p>
+</footer>
+
+</address></body></html>
